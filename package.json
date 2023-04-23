@@ -17,5 +17,6 @@
   },
   "scripts": {
     "vercel-build": "node node_modules/puppeteer/install.js"
-  }
+  },
+  "puppeteer": "puppeteer.config.cjs"
 }
