@@ -14,6 +14,7 @@ require('puppeteer-extra-plugin-stealth/evasions/sourceurl');
 require('puppeteer-extra-plugin-stealth/evasions/user-agent-override');
 require('puppeteer-extra-plugin-stealth/evasions/webgl.vendor');
 require('puppeteer-extra-plugin-stealth/evasions/window.outerdimensions');
+require('puppeteer-extra-plugin-stealth/evasions/defaultArgs');
 
 import type { VercelRequest, VercelResponse } from '@vercel/node'
 import CharacterAI from 'node_characterai';
